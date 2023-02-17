@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main - Entry;
+ * Main - Print the sizes base on computer;
  * Return: Always 0;
  */
 
