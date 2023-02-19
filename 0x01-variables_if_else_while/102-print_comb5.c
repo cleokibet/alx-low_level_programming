@@ -1,8 +1,9 @@
 #include <stdio.h>
-/* main - Prints all combination of single digit
+/*
+* main - Prints all combination of single digit
 * Return: Always 0 (success)
 */
-int main(void)
+int main(void)/*Prints all combination of single digit*/
 {
 	int num1 = 0, num2 = 1, num1max = 98, num2max = 99;
 
