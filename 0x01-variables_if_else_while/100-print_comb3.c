@@ -1,10 +1,13 @@
 #include <stdio.h>
 /**
 * main - prints all possible different combinations of two digits.
+*
+* Description: 'prints all possible different combinations of two digits'
+*
 * return: Always 0
  */
 
-int main(void)
+int main(void) /* prints all possible different combinations of two digits */
 {
 	int s = 0, e = 1, s1 = 1, e1 = 2;
 
