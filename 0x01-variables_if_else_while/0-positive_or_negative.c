@@ -4,7 +4,6 @@
 
 /**
  * Main - Determine if a number is positive , negative or zero.
- *
  * Return : Always 0 (success)
  */
 int main(void)
@@ -13,7 +12,7 @@ int main(void)
 
 	srand(time(0));
 
-	n = rand() _RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
 	{
