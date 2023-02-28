@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 /**
  * main - generates random dalid password for the 101-crackme program
