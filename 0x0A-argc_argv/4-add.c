@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 	sum += atoi(e);
 	e++;
 		}
-		printf("0\n");
+		printf("%d\n", sum);
 	}
 	else
 	{
