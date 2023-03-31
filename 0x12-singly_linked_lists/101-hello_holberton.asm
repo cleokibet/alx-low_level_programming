@@ -1,5 +1,5 @@
+global main
 
-bal main
 extern printf
 main:
 mov edi, format
