@@ -3,10 +3,10 @@
 /**
  * add_dnodeint - add a node to the head of a list
  * @head: pointer to head
- * @i: new node to add
+ * @n: new node to add
  * Return: new list
  */
-dlistint_t *add_dnodeint(dlistint_t **head, const int i)
+dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 	dlistint_t *new;
 
@@ -17,7 +17,7 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int i)
 	if (!new)
 		return (NULL);
 
-	new->i = i;
+	new->n = n;
 	new->prev = NULL;
 	new->next = *head;
 	if (*head)
