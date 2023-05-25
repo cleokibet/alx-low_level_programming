@@ -1,4 +1,4 @@
-// operations.c
+// operations.c to transform
 
 int add(int a, int b) {
     return a + b;
