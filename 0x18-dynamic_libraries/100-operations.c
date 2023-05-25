@@ -1,3 +1,4 @@
+#include <stdio.h>
 // operations.c to transform
 
 int add(int a, int b) {
